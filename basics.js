@@ -40,3 +40,27 @@ console.log(Math.ceil(43.8));
 if (hour < 18) {
     greeting = "Good day";
   }
+
+
+  if (time < 10) {
+    greeting = "Good morning";
+  } else if (time < 20) {
+    greeting = "Good day";
+  } else {
+    greeting = "Good evening";
+  }
+
+  //logical operators
+  /* || (OR), 
+  && (AND), 
+  ! (NOT),
+  */
+  if (1 || 0) { // works just like if( true || false )
+    alert( 'truthy!' );
+  }
+
+let hour = 9;
+
+if (hour < 10 || hour > 18) {
+  alert( 'The office is closed.' );
+}
