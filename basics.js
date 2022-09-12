@@ -72,3 +72,6 @@ let isWeekend=true;
 if (hour <10 || hour > 18 || isWeekend){
     alert("Office is closed")
 }
+
+//example
+let variable = "hello";
