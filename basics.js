@@ -35,3 +35,8 @@ console.log("Codecademy".length);
 
 //built-in objects
 console.log(Math.ceil(43.8));
+
+//condtionals
+if (hour < 18) {
+    greeting = "Good day";
+  }
